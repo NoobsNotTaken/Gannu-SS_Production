@@ -11,7 +11,7 @@ function Home() {
           <div className="">
             <Header />
           </div>
-          */}
+
           <div className="flex justify-start flex-col z-50  px-5 pb-5 h-[80vh] bg-vi ">
             <Title />
           </div>
