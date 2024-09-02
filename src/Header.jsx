@@ -2,11 +2,11 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex ">
+    <div className="flex px-10 py-5">
       {/* name of the website */}
       <div className=" flex justify-center items-center text-2xl font-kanit ">
         {" "}
-        <a href="">Gannu'SS</a>
+        <a href="">Gannu'SS Productions</a>
       </div>
       <div className="flex-1"></div>
       {/* navbar links */}
@@ -34,5 +34,5 @@ function Header() {
     </div>
   );
 }
-
+//vfx works
 export default Header;

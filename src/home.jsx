@@ -6,12 +6,15 @@ import Header from "./Header";
 function Home() {
   return (
     <>
-      <div className="h-screen w-full px-16 py-6 ">
-        <div className="">
-          <Header />
-        </div>
-        <div className="flex justify-start flex-col mt-10 ">
-          <Title />
+      <div className=" relative ">
+        <div className=" ">
+          <div className="">
+            <Header />
+          </div>
+          */}
+          <div className="flex justify-start flex-col z-50  px-5 pb-5 h-[80vh] bg-vi ">
+            <Title />
+          </div>
         </div>
         <div className="flex justify-center items-center">
           <Content />
