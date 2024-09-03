@@ -12,7 +12,7 @@ function Home() {
             <Header />
           </div>
 
-          <div className="flex justify-start flex-col z-50 pb-5 h-[88vh] bg-vi ">
+          <div className="flex justify-start flex-col z-50 pb-5 h-[88vh] bg-vi mt-20 ">
             <Title />
           </div>
         </div>
