@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex px-10 py-5">
+    <div className="flex px-10 py-5 fixed z-50 bg-white top-0 left-0 right-0 ">
       {/* name of the website */}
       <div className=" flex justify-center items-center text-2xl font-kanit ">
         {" "}
