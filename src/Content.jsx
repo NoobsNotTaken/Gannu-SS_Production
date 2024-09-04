@@ -3,7 +3,7 @@ import Card from "./Card";
 function Content() {
   return (
     <>
-      <div className="text-6xl mb-5 px-10 font-bold py-1  ">Our Team</div>
+      <div className="text-6xl mx-10 font-bold py-1 m-5 ">Our Team</div>
       <div className="flex gap-2 ">
         {/* card holder */}
         <Card Name="Aunty" Position="Owner, Founder" />
