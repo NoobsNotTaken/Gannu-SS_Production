@@ -9,6 +9,7 @@ function Content() {
         <Card Name="Aunty" Position="Owner, Founder" />
         <Card Name="Uncle" Position="Designer, Founder" />
         <Card Name="Meta bhai" Position="Founder" />
+        <Card Name="Aaryan bhai" Position="lol" />
       </div>
     </>
   );
