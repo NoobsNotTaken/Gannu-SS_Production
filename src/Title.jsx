@@ -21,7 +21,7 @@ function Title() {
           <source src="GannuSS_Production.mp4" type="video/mp4" />
         </video>
       </div>
-      <div className="flex flex-col gap-4  z-10 h-full text-white px-6 py-10 border-black border-2">
+      <div className="flex flex-col gap-4  z-10 h-full text-white px-6 py-10 ">
         <div
           className="text-7xl font-semibold z-50 text-transparent flex flex-col"
           style={{ WebkitTextStroke: "1px white" }}

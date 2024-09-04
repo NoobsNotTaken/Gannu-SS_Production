@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex px-10 py-5 fixed z-50 bg-white top-0 left-0 right-0 ">
+    <div className="flex px-10 py-5 fixed z-50 top-0 left-0 bg-black right-0 border-gray-900 border-b-2">
       {/* name of the website */}
       <div className=" flex justify-center items-center text-2xl font-kanit ">
         {" "}
@@ -28,7 +28,7 @@ function Header() {
       </div>
       <div className="flex-1"></div>
       {/* contact us Butoon */}
-      <div className="flex justify-center items-center border px-1 hover:bg-black hover:text-white rounded-lg">
+      <div className="flex justify-center items-center border px-1 hover:bg-white hover:text-black rounded-lg">
         <button className=""> Contact us</button>{" "}
       </div>
     </div>

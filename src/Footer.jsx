@@ -8,7 +8,7 @@ import { faRss } from "@fortawesome/free-solid-svg-icons"; // Import faRss from 
 
 function Footer() {
   return (
-    <footer className="text-black py-10 w-[100vw]">
+    <footer className="text-white py-10 w-[100vw]">
       <div className="container mx-auto flex justify-between items-start">
         {/* Left Section */}
         <div className="space-y-2">
@@ -41,16 +41,16 @@ function Footer() {
       </div>
       {/* Social Icons */}
       <div className="flex justify-center mt-10 space-x-5">
-        <a href="#" className="text-black hover:text-gray-400">
+        <a href="#" className="text-white hover:text-gray-400">
           <FontAwesomeIcon icon={faFacebookF} />
         </a>
-        <a href="#" className="text-black hover:text-gray-400">
+        <a href="#" className="text-white hover:text-gray-400">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="#" className="text-black hover:text-gray-400">
+        <a href="#" className="text-white hover:text-gray-400">
           <FontAwesomeIcon icon={faRss} />
         </a>
-        <a href="#" className="text-black hover:text-gray-400">
+        <a href="#" className="text-white hover:text-gray-400">
           <FontAwesomeIcon icon={faFlickr} />
         </a>
       </div>

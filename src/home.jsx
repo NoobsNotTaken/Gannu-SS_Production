@@ -6,21 +6,21 @@ import Header from "./Header";
 function Home() {
   return (
     <>
-      <div className=" relative ">
+      <div className=" relative  bg-black text-white">
         <div className=" ">
-          <div className="">
+          <div className=" ">
             <Header />
           </div>
 
-          <div className="flex justify-start flex-col z-50 pb-5 h-[88vh] bg-vi mt-20 ">
+          <div className="flex justify-start flex-col z-50 pb-5 h-[88vh] bg-vi mt-16 ">
             <Title />
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mb-10">
           <Content />
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center border-t-2 border-gray-900">
         <Footer />
       </div>
     </>

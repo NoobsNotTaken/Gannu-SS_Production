@@ -3,7 +3,9 @@ import Home from "./home";
 function App() {
   return (
     <>
-      <Home />
+      <div className="bg-black">
+        <Home />
+      </div>
     </>
   );
 }
