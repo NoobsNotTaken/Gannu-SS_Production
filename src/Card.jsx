@@ -1,17 +1,18 @@
 import React from "react";
 
-function Card() {
+function Card(Props) {
   return (
-    <div className="flex flex-col px-4 py-2 rounded-lg border-black border-2 hover:bg-orange-300">
-      <div className="border-2  rounded-lg ">
+    <div className="flex flex-col rounded-lg  hover:bg-white hover:text-black py-4 px-3 ">
+      <div className=" min-w-[315px] max-w-[450px] rounded-lg ">
         {" "}
         <img
-          className="max-w-[200px] object-cover min-w-[300px] aspect-square "
+          className=" object-cover  rounded-lg "
           src="https://thispersondoesnotexist.com"
         ></img>
       </div>
-      <div className="border px-1 justify-center items-center flex py-2 font-semibold text-xl">
-        Meta bhai
+      <div className=" px-1 justify-center items-center flex flex-col  py-2 ">
+        <div className="font-semibold text-xl">{Props.Name}</div>
+        <div className="font-sm text-sm">{Props.Position}</div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import { faRss } from "@fortawesome/free-solid-svg-icons"; // Import faRss from 
 
 function Footer() {
   return (
-    <footer className="text-white py-10 w-[100vw]">
+    <footer className="text-white py-10 w-[100vw] bg-[#040406]">
       <div className="container mx-auto flex justify-between items-start">
         {/* Left Section */}
         <div className="space-y-2">
