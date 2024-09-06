@@ -11,8 +11,8 @@ function Card(Props) {
         ></img>
       </div>
       <div className=" px-1 justify-center items-center flex flex-col  py-2 ">
-        <div className="font-semibold text-xl">{Props.Name}</div>
-        <div className="font-sm text-sm">{Props.Position}</div>
+        <h1 className="font-semibold text-xl">{Props.Name}</h1>
+        <p className="font-sm text-sm text-gray-400 ">{Props.Position}</p>
       </div>
     </div>
   );

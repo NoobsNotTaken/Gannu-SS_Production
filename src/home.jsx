@@ -13,18 +13,18 @@ function Home() {
           <div className=" ">
             <Header />
           </div>
-          <div className="flex justify-start flex-col z-50 pb-5 h-[88vh] border-b-2 border-gray-900">
+          <div className="flex justify-start flex-col z-50 pb-5 h-[88vh]  ">
             <Title />
           </div>
         </div>
-        <div>
+        <div className="">
           <ProjectsGrid projects={projects} />
         </div>
-        <div className="flex-col flex mb-10 mt-5 overflow-x-auto border-2 border-gray-900 py-7 px-5 bg-[#040406] ">
+        <div className="flex-col flex mb-10 pt-5  overflow-x-auto border-2 border-gray-900 py-7 px-5 border-x-0 ">
           <Content />
         </div>
       </div>
-      <div className="flex justify-center items-center border-t-2 border-gray-900">
+      <div className="flex justify-center items-center  border-gray-900">
         <Footer />
       </div>
     </>
