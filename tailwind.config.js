@@ -6,6 +6,8 @@ export default {
       fontFamily: {
         kanit: ["Kanit", "sans-serif"],
         jersey: ["Jersey 10", "sans-serif"],
+        justanotherhand: ["Just Another Hand", "sans-serif"],
+        shadows: ["Shadows Into Light", "cursive"],
       },
     },
   },

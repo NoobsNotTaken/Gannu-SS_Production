@@ -3,7 +3,7 @@ import React from "react";
 function Card(Props) {
   return (
     <div className="flex flex-col rounded-lg  hover:bg-white hover:text-black py-4 px-3 ">
-      <div className="  rounded-lg min-w-[280px] max-w-[390px] h-80 border ">
+      <div className="  rounded-lg min-w-[280px] max-w-[390px] h-80  ">
         {" "}
         <img
           className=" object-cover h-full  rounded-lg "

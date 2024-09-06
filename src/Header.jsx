@@ -21,13 +21,17 @@ function Header() {
     <div
       className={`flex px-10 py-5 fixed z-50 top-0 left-0 ${
         !isScrolled && "bg-transparent text-white border-none"
-      } bg-[#040406] right-0 border-gray-900 border-b-2`}
+      } bg-[#030304] right-0 border-gray-900 border-b-2`}
     >
       {/* name of the website */}
       <div className=" flex justify-center items-center font-kanit  ">
         {" "}
-        <h2 className=" text-2xl " href="">
-          Gannu'SS Productions
+        <h2 className=" text-2xl cursor-default  " href="">
+          <span className="text-[#ff0901] font-bold font-serif"> Gannu'SS</span>
+          <span className=" text-[#25a315] font-shadows font-bold">
+            {" "}
+            Productions
+          </span>
         </h2>
       </div>
       <div className="flex-1"></div>

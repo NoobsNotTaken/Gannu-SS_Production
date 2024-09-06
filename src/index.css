@@ -11,7 +11,7 @@
 
 .underline-animation::before {
   content: "";
-  background-color: rgb(253, 80, 1); /* Customize color */
+  background-color: rgb(255, 102, 0); /* Customize color */
   width: 100%;
   height: 2px;
   position: absolute;
