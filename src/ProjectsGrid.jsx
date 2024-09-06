@@ -2,7 +2,9 @@ const ProjectsGrid = ({ projects }) => {
   return (
     <section className="py-12  border-2 border-gray-900 border-x-0 border-b-0 bg-[#040406] ">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-bold  mb-8 ">Our Work</h2>
+        <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-[#ff2301] to-[#feba00] bg-clip-text text-transparent">
+          Our Work
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5 ">
           {projects.map((project, index) => (
             <div
@@ -19,7 +21,7 @@ const ProjectsGrid = ({ projects }) => {
                 <p className="text-gray-600 mb-3">{project.description}</p>
                 <a
                   href={project.link}
-                  className="text-blue-500 hover:text-blue-700 font-semibold"
+                  className="text-[#44cf35] hover:text-[#337a28] font-semibold"
                 >
                   View Project
                 </a>
