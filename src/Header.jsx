@@ -24,7 +24,7 @@ function Header() {
       } bg-[#030304] right-0 border-gray-900 border-b-2`}
     >
       {/* name of the website */}
-      <div className=" flex justify-center items-center font-kanit  ">
+      <div className=" flex justify-center items-center font-kanit flex-col  ">
         {" "}
         <h2 className=" text-2xl cursor-default  " href="">
           <span className="text-[#ff0901] font-bold font-serif"> Gannu'SS</span>
@@ -33,6 +33,7 @@ function Header() {
             Productions
           </span>
         </h2>
+        <span className="text-sm">where Vision Meets Reality</span>
       </div>
       <div className="flex-1"></div>
       {/* navbar links */}
@@ -62,7 +63,7 @@ function Header() {
       </ul>
       <div className="flex-1"></div>
       {/* contact us Butoon */}
-      <div className="flex justify-center items-center border px-1 hover:bg-white hover:text-black rounded-lg">
+      <div className="flex justify-center items-center border px-1 my-2 hover:bg-white hover:text-black rounded-lg">
         <button className=""> Contact us</button>{" "}
       </div>
     </div>

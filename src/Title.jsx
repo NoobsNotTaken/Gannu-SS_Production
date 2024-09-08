@@ -7,6 +7,7 @@ function Title() {
         <video
           className="z-0"
           autoPlay
+          loop
           muted
           id="video"
           style={{
@@ -22,7 +23,7 @@ function Title() {
       </div>
       <div className="flex flex-col gap-4 z-10 h-full text-white px-6 py-10 ">
         {/* <div
-          className="text-7xl font-semibold z-50 text-transparent flex flex-col mt-36"
+          className="text-5xl font-semibold z-50 text-transparent flex flex-col mt-36"
           style={{ WebkitTextStroke: "1px white" }}
         >
           Innovative UI/UX <div> Designer</div>
