@@ -17,23 +17,5 @@ const projects = [
     imageUrl: "https://thispersondoesnotexist.com",
     link: "#",
   },
-  {
-    title: "Project 4",
-    description: "Description of Project 2",
-    imageUrl: "https://thispersondoesnotexist.com",
-    link: "#",
-  },
-  {
-    title: "Project 5",
-    description: "Description of Project 2",
-    imageUrl: "https://thispersondoesnotexist.com",
-    link: "#",
-  },
-  {
-    title: "Project ",
-    description: "Description of Project 2",
-    imageUrl: "https://thispersondoesnotexist.com",
-    link: "#",
-  },
 ];
 export { projects };
